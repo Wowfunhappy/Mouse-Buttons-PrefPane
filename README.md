@@ -15,15 +15,15 @@ Open `System Preferences` →  `Accessability`, and check the box labeled "Enabl
     
 **Mavericks**:
 
-Open `System Preferences` → `Security & Privacy` → `Accessability`, add add *Side Button Enabler* to the list of apps allowed to control your computer.
+Open `System Preferences` → `Security & Privacy` → `Accessability`, and add *Side Button Enabler* to the list of apps allowed to control your computer.
 
-## 3. Add *Side Button Enabler* to your startup items:
+## 3. Tell you Mac to open *Side Button Enabler* at log in:
 
-I would provide instructions on how to do this, but I'm currently writing this readme on a Mojave machine, and I don't remember if the steps are the same.
+Open `System Preferences` → `Users & Groups` → `Login Items`, and add *Side Bar Enabler* to the list of apps that open when you log in.
 
 ## 4. Run the *Side Button Enabler* app.
 
-The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons. If they don't, try closing *Side Button Enabler* in Activity Monitor, and then opening it again. If they still don't work, double check that *Side Button Enabler* is allowed to control your computer.
+The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons. If they don't, try using Activity Monitor to close *Side Button Enabler*, and then open it again. If the buttons still don't work, double check that *Side Button Enabler* is allowed to control your computer.
 
 ---
 

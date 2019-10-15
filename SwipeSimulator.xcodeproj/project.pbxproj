@@ -16,6 +16,7 @@
 		4EF1B3A31EE71DC40075438A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF1B39F1EE71D690075438A /* Main.storyboard */; };
 		4EF68AE21EE55A9500F6B0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16991EE54D3D0062AC72 /* main.m */; };
 		4EF68AE31EE55A9500F6B0E8 /* TouchEvents.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16A21EE54D870062AC72 /* TouchEvents.c */; };
+		AB62F07123564F6D00EE0CDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB62F07023564F6D00EE0CDD /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		4ECC16A71EE54D870062AC72 /* TouchEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEvents.h; sourceTree = "<group>"; };
 		4EF1B3A01EE71D690075438A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EF68AE91EE55A9500F6B0E8 /* swipesimr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swipesimr; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB62F07023564F6D00EE0CDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				4EC7C3C21EE711B400C9F725 /* Info.plist */,
 				4EC7C3C31EE711B400C9F725 /* main.m */,
 				4EF1B39F1EE71D690075438A /* Main.storyboard */,
+				AB62F07023564F6D00EE0CDD /* MainMenu.xib */,
 				4EC7C3C51EE711B400C9F725 /* SideButtonFixer.entitlements */,
 			);
 			path = SideButtonFixer;
@@ -223,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -245,6 +249,7 @@
 			files = (
 				4EC7C3BE1EE711B400C9F725 /* Assets.xcassets in Resources */,
 				4EF1B3A31EE71DC40075438A /* Main.storyboard in Resources */,
+				AB62F07123564F6D00EE0CDD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

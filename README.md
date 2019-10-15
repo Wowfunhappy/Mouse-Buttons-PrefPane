@@ -45,4 +45,4 @@ Q: This app is great, who do I thank?
 A: The original developer, archagon. Go to http://sensible-side-buttons.archagon.net for more information. He accepts donations.
 
 Q: This app is awful, who do I hate?  
-A: Definately *not* archagon, it's probably my fault. You can hate me, if you want, as long as you don't tell me. It would hurt my feelings. :(
+A: Definately *not* archagon, please don't contact him, we have no relation! You can hate me, if you want, as long as you don't tell me. It would hurt my feelings. :(

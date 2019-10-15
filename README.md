@@ -30,7 +30,7 @@ The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` butt
 # Theoretical FAQs
 
 Q: What is a "theoretical" FAQ?  
-A: A question no one has asked me, but theoretically could.  
+A: A question someone could theoretically ask me, but hasn't yet.
 
 Q: Why did you make this?  
 A: Because I wanted to use SensibleSideButtons on Mavericks.

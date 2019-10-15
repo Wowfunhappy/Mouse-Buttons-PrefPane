@@ -23,7 +23,7 @@ I would provide instructions on how to do this, but I'm currently writing this r
 
 ## 4. Run the *Side Button Enabler* app.
 
-The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons.
+The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons. If they don't, try closing *Side Button Enabler* in Activity Monitor, and then opening it again. If they still don't work, double check that *Side Button Enabler* is allowed to control your computer.
 
 ---
 

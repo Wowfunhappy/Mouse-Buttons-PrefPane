@@ -9,12 +9,10 @@
 
 ## 2. Grant *Side Button Enabler* permission to control your computer:
 
-**Mountain Lion**:
-
+**Mountain Lion**:  
 Open `System Preferences` →  `Accessability`, and check the box labeled "Enable access for assistive devices"
     
-**Mavericks**:
-
+**Mavericks**:  
 Open `System Preferences` → `Security & Privacy` → `Accessability`, and add *Side Button Enabler* to the list of apps allowed to control your computer.
 
 ## 3. Tell you Mac to open *Side Button Enabler* at log in:

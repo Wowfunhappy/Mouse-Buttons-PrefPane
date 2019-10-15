@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4E9995151EE7172700A1CFA6 /* TouchEvents.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16A21EE54D870062AC72 /* TouchEvents.c */; };
-		4EC7C3B91EE711B400C9F725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7C3B81EE711B400C9F725 /* AppDelegate.m */; };
 		4EC7C3BE1EE711B400C9F725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC7C3BD1EE711B400C9F725 /* Assets.xcassets */; };
 		4EC7C3C41EE711B400C9F725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7C3C31EE711B400C9F725 /* main.m */; };
 		4ECC169A1EE54D3D0062AC72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16991EE54D3D0062AC72 /* main.m */; };
 		4ECC16AB1EE54D870062AC72 /* TouchEvents.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16A21EE54D870062AC72 /* TouchEvents.c */; };
-		4EF1B3A31EE71DC40075438A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF1B39F1EE71D690075438A /* Main.storyboard */; };
 		4EF68AE21EE55A9500F6B0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16991EE54D3D0062AC72 /* main.m */; };
 		4EF68AE31EE55A9500F6B0E8 /* TouchEvents.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16A21EE54D870062AC72 /* TouchEvents.c */; };
-		AB62F07123564F6D00EE0CDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB62F07023564F6D00EE0CDD /* MainMenu.xib */; };
+		AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB62F06E23564E2000EE0CDD /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,9 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4EC7C3B51EE711B400C9F725 /* SideButtonFixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SideButtonFixer.app; path = SensibleSideButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EC7C3B71EE711B400C9F725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4EC7C3B81EE711B400C9F725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EC7C3B51EE711B400C9F725 /* Side Button Enabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Side Button Enabler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC7C3B71EE711B400C9F725 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		4EC7C3BD1EE711B400C9F725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC7C3C21EE711B400C9F725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC7C3C31EE711B400C9F725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,9 +51,8 @@
 		4ECC16A31EE54D870062AC72 /* IOHIDEventTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDEventTypes.h; sourceTree = "<group>"; };
 		4ECC16A41EE54D870062AC72 /* IOHIDEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDEventData.h; sourceTree = "<group>"; };
 		4ECC16A71EE54D870062AC72 /* TouchEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEvents.h; sourceTree = "<group>"; };
-		4EF1B3A01EE71D690075438A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EF68AE91EE55A9500F6B0E8 /* swipesimr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swipesimr; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB62F07023564F6D00EE0CDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		AB62F06E23564E2000EE0CDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +83,12 @@
 		4EC7C3B61EE711B400C9F725 /* SideButtonFixer */ = {
 			isa = PBXGroup;
 			children = (
-				4EC7C3B71EE711B400C9F725 /* AppDelegate.h */,
-				4EC7C3B81EE711B400C9F725 /* AppDelegate.m */,
+				4EC7C3B71EE711B400C9F725 /* main.h */,
 				4EC7C3BD1EE711B400C9F725 /* Assets.xcassets */,
 				4EC7C3C21EE711B400C9F725 /* Info.plist */,
 				4EC7C3C31EE711B400C9F725 /* main.m */,
-				4EF1B39F1EE71D690075438A /* Main.storyboard */,
-				AB62F07023564F6D00EE0CDD /* MainMenu.xib */,
 				4EC7C3C51EE711B400C9F725 /* SideButtonFixer.entitlements */,
+				AB62F06E23564E2000EE0CDD /* MainMenu.xib */,
 			);
 			path = SideButtonFixer;
 			sourceTree = "<group>";
@@ -114,7 +108,7 @@
 			children = (
 				4ECC16961EE54D3D0062AC72 /* swipesiml */,
 				4EF68AE91EE55A9500F6B0E8 /* swipesimr */,
-				4EC7C3B51EE711B400C9F725 /* SideButtonFixer.app */,
+				4EC7C3B51EE711B400C9F725 /* Side Button Enabler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EC7C3B41EE711B400C9F725 /* SensibleSideButtons */ = {
+		4EC7C3B41EE711B400C9F725 /* Side Button Enabler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EC7C3C81EE711B400C9F725 /* Build configuration list for PBXNativeTarget "SensibleSideButtons" */;
+			buildConfigurationList = 4EC7C3C81EE711B400C9F725 /* Build configuration list for PBXNativeTarget "Side Button Enabler" */;
 			buildPhases = (
 				4EC7C3B11EE711B400C9F725 /* Sources */,
 				4EC7C3B21EE711B400C9F725 /* Frameworks */,
@@ -153,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = SensibleSideButtons;
+			name = "Side Button Enabler";
 			productName = SideButtonFixer;
-			productReference = 4EC7C3B51EE711B400C9F725 /* SideButtonFixer.app */;
+			productReference = 4EC7C3B51EE711B400C9F725 /* Side Button Enabler.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4ECC16951EE54D3D0062AC72 /* swipesiml */ = {
@@ -203,7 +197,6 @@
 				TargetAttributes = {
 					4EC7C3B41EE711B400C9F725 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = R4MX2B96J2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -213,7 +206,6 @@
 					};
 					4ECC16951EE54D3D0062AC72 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = R4MX2B96J2;
 						ProvisioningStyle = Automatic;
 					};
 					4EF68AE01EE55A9500F6B0E8 = {
@@ -237,7 +229,7 @@
 			targets = (
 				4ECC16951EE54D3D0062AC72 /* swipesiml */,
 				4EF68AE01EE55A9500F6B0E8 /* swipesimr */,
-				4EC7C3B41EE711B400C9F725 /* SensibleSideButtons */,
+				4EC7C3B41EE711B400C9F725 /* Side Button Enabler */,
 			);
 		};
 /* End PBXProject section */
@@ -248,8 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC7C3BE1EE711B400C9F725 /* Assets.xcassets in Resources */,
-				4EF1B3A31EE71DC40075438A /* Main.storyboard in Resources */,
-				AB62F07123564F6D00EE0CDD /* MainMenu.xib in Resources */,
+				AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +253,6 @@
 			files = (
 				4EC7C3C41EE711B400C9F725 /* main.m in Sources */,
 				4E9995151EE7172700A1CFA6 /* TouchEvents.c in Sources */,
-				4EC7C3B91EE711B400C9F725 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,17 +276,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		4EF1B39F1EE71D690075438A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EF1B3A01EE71D690075438A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		4EC7C3C61EE711B400C9F725 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -308,10 +287,10 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R4MX2B96J2;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -319,8 +298,8 @@
 				);
 				INFOPLIST_FILE = SideButtonFixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.archagon.sensible-side-buttons";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowfunhappy.side-button-enabler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -336,15 +315,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R4MX2B96J2;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SideButtonFixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.archagon.sensible-side-buttons";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowfunhappy.side-button-enabler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -388,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -431,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -440,7 +419,8 @@
 		4ECC169E1EE54D3D0062AC72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = R4MX2B96J2;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
@@ -456,7 +436,8 @@
 		4ECC169F1EE54D3D0062AC72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = R4MX2B96J2;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
@@ -498,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EC7C3C81EE711B400C9F725 /* Build configuration list for PBXNativeTarget "SensibleSideButtons" */ = {
+		4EC7C3C81EE711B400C9F725 /* Build configuration list for PBXNativeTarget "Side Button Enabler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EC7C3C61EE711B400C9F725 /* Debug */,

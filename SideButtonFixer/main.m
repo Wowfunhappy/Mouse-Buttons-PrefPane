@@ -45,14 +45,17 @@ static CGEventRef SBFMouseCallback(CGEventTapProxy proxy, CGEventType type, CGEv
     int64_t number = CGEventGetIntegerValueField(event, kCGMouseEventButtonNumber);
     BOOL down = (CGEventGetType(event) == kCGEventOtherMouseDown);
     
-    if (number == 3) {
+    NSUInteger mouseButtonMask = [NSEvent pressedMouseButtons];
+    BOOL middleButtonDown = (mouseButtonMask & (1 << 2)) != 0;
+    
+    if (number == 3 && !middleButtonDown) {
         if (down) {
             SBFFakeSwipe(kTLInfoSwipeLeft);
         }
         
         return NULL;
     }
-    else if (number == 4) {
+    else if (number == 4 && !middleButtonDown) {
         if (down) {
             SBFFakeSwipe(kTLInfoSwipeRight);
         }

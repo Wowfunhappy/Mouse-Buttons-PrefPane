@@ -15,6 +15,9 @@
 		4EF68AE21EE55A9500F6B0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16991EE54D3D0062AC72 /* main.m */; };
 		4EF68AE31EE55A9500F6B0E8 /* TouchEvents.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC16A21EE54D870062AC72 /* TouchEvents.c */; };
 		AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB62F06E23564E2000EE0CDD /* MainMenu.xib */; };
+		AB8230C023736B2C00EE0CDD /* extra-script-b3.command in Resources */ = {isa = PBXBuildFile; fileRef = AB8230BE2373595500EE0CDD /* extra-script-b3.command */; };
+		AB8230C123736B2C00EE0CDD /* extra-script-b4.command in Resources */ = {isa = PBXBuildFile; fileRef = AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */; };
+		AB8230C323736B6000EE0CDD /* SideButtonFixer in Resources */ = {isa = PBXBuildFile; fileRef = AB8230C223736B6000EE0CDD /* SideButtonFixer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,9 @@
 		4ECC16A71EE54D870062AC72 /* TouchEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEvents.h; sourceTree = "<group>"; };
 		4EF68AE91EE55A9500F6B0E8 /* swipesimr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swipesimr; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB62F06E23564E2000EE0CDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		AB8230BE2373595500EE0CDD /* extra-script-b3.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "extra-script-b3.command"; sourceTree = "<group>"; };
+		AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "extra-script-b4.command"; sourceTree = "<group>"; };
+		AB8230C223736B6000EE0CDD /* SideButtonFixer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SideButtonFixer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				4EC7C3C31EE711B400C9F725 /* main.m */,
 				4EC7C3C51EE711B400C9F725 /* SideButtonFixer.entitlements */,
 				AB62F06E23564E2000EE0CDD /* MainMenu.xib */,
+				AB8230BE2373595500EE0CDD /* extra-script-b3.command */,
+				AB8230C223736B6000EE0CDD /* SideButtonFixer */,
+				AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */,
 			);
 			path = SideButtonFixer;
 			sourceTree = "<group>";
@@ -240,7 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC7C3BE1EE711B400C9F725 /* Assets.xcassets in Resources */,
+				AB8230C323736B6000EE0CDD /* SideButtonFixer in Resources */,
+				AB8230C123736B2C00EE0CDD /* extra-script-b4.command in Resources */,
 				AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */,
+				AB8230C023736B2C00EE0CDD /* extra-script-b3.command in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				INFOPLIST_FILE = SideButtonFixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wowfunhappy.side-button-enabler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -323,6 +336,7 @@
 				INFOPLIST_FILE = SideButtonFixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wowfunhappy.side-button-enabler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

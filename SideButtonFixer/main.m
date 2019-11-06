@@ -51,15 +51,23 @@ static CGEventRef SBFMouseCallback(CGEventTapProxy proxy, CGEventType type, CGEv
     if (number == 3 && !middleButtonDown) {
         if (down) {
             SBFFakeSwipe(kTLInfoSwipeLeft);
+            
+            /*run extra script*/
+            NSTask *task = [[NSTask alloc] init];
+            [task setLaunchPath:[[NSBundle mainBundle] pathForResource:@"extra-script-b3" ofType:@"command"]];
+            [task launch];
         }
-        
         return NULL;
     }
     else if (number == 4 && !middleButtonDown) {
         if (down) {
             SBFFakeSwipe(kTLInfoSwipeRight);
+            
+            /*run extra script*/
+            NSTask *task = [[NSTask alloc] init];
+            [task setLaunchPath:[[NSBundle mainBundle] pathForResource:@"extra-script-b4" ofType:@"command"]];
+            [task launch];
         }
-        
         return NULL;
     }
     else {

@@ -1,18 +1,18 @@
-# A UI-less fork of SensibleSideButtons for Mountain Lion and Mavericks
+# A UI-less fork of SensibleSideButtons for Mac OS X 10.8+
 
 ---
 
 # Instructions
 
-## 1. Mount the DMG, and copy *Side Button Enabler* to a location on your hard drive.
-(Most people would probably copy it to the `Applications` folder, but I like to copy invisible utilities like this one in a different location, so `Applications` stays clean. You should do what works for you!)
+## 1. Mount the DMG, and copy *Side Button Enabler* to your Utilities folder.
+(Or to any other location on your hard drive.)
 
 ## 2. Grant *Side Button Enabler* permission to control your computer:
 
-**Mountain Lion**:  
+**Mac OS X 10.8:**:  
 Open `System Preferences` →  `Accessability`, and check the box labeled "Enable access for assistive devices"
     
-**Mavericks**:  
+**Mac OS X 10.9 and later:**:  
 Open `System Preferences` → `Security & Privacy` → `Accessability`, and add *Side Button Enabler* to the list of apps allowed to control your computer.
 
 ## 3. Tell you Mac to open *Side Button Enabler* at log in:
@@ -21,23 +21,27 @@ Open `System Preferences` → `Users & Groups` → `Login Items`, and add *Side 
 
 ## 4. Run the *Side Button Enabler* app.
 
-The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons. If they don't, try using Activity Monitor to close *Side Button Enabler*, and then open it again. If the buttons still don't work, double check that *Side Button Enabler* is allowed to control your computer.
+The M4 and M5 buttons on your mouse should now work as `Forward` and `Back` buttons. Hold down the middle mouse button (M3) to enable side buttons's native functionality (useful if the side buttons are set up as shortcuts in Mission Control).
+
+---
+
+# Troubleshooting
+
+Buttons don't work? Try using Activity Monitor to quit *Side Button Enabler*, and then open it again. If they still don't work, double check that *Side Button Enabler* is allowed to control your computer.
+
 
 ---
 
 # Theoretical FAQs
 
-Q: What is a "theoretical" FAQ?  
-A: A question someone could theoretically ask me, but hasn't yet.
-
 Q: Why did you make this?  
-A: Because I wanted to use SensibleSideButtons on Mavericks.
+A: Primarily because I wanted to use SensibleSideButtons on Mavericks. The original version is only compatible with 10.10 Yosemite and above. And Yosemite looks ugly. I also added the ability to hold down the middle mouse button to enable the side buttons's native functionaity, which allows me to use the Mission Control shortcuts I set up in System Preferences.
 
 Q: Why is there no UI?  
 A: The original app's UI was built using storyboards. Storyboards don't work on Mavericks.
 
 Q: Did you know this code is terrible?  
-A: No, but I'm not surprised. I don't actually know how to program in Objective C, I just deleted a bunch of code. (And moved a bunch of code that I later realized didn't need to be moved.)
+A: No, but I'm not surprised. I don't actually know how to program in Objective C. I just experimented until I found something that worked.
 
 Q: This app is great, who do I thank?  
 A: The original developer, archagon. Go to http://sensible-side-buttons.archagon.net for more information. He accepts donations.

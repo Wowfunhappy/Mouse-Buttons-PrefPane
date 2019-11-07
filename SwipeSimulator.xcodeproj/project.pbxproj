@@ -17,7 +17,7 @@
 		AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB62F06E23564E2000EE0CDD /* MainMenu.xib */; };
 		AB8230C023736B2C00EE0CDD /* extra-script-b3.command in Resources */ = {isa = PBXBuildFile; fileRef = AB8230BE2373595500EE0CDD /* extra-script-b3.command */; };
 		AB8230C123736B2C00EE0CDD /* extra-script-b4.command in Resources */ = {isa = PBXBuildFile; fileRef = AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */; };
-		AB8230C323736B6000EE0CDD /* SideButtonFixer in Resources */ = {isa = PBXBuildFile; fileRef = AB8230C223736B6000EE0CDD /* SideButtonFixer */; };
+		AB88D5AA237467DC00EE0CDD /* SideButtonFixer in Resources */ = {isa = PBXBuildFile; fileRef = AB88D5A9237467DC00EE0CDD /* SideButtonFixer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +58,7 @@
 		AB62F06E23564E2000EE0CDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		AB8230BE2373595500EE0CDD /* extra-script-b3.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "extra-script-b3.command"; sourceTree = "<group>"; };
 		AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "extra-script-b4.command"; sourceTree = "<group>"; };
-		AB8230C223736B6000EE0CDD /* SideButtonFixer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SideButtonFixer; sourceTree = "<group>"; };
+		AB88D5A9237467DC00EE0CDD /* SideButtonFixer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SideButtonFixer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 				4EC7C3C51EE711B400C9F725 /* SideButtonFixer.entitlements */,
 				AB62F06E23564E2000EE0CDD /* MainMenu.xib */,
 				AB8230BE2373595500EE0CDD /* extra-script-b3.command */,
-				AB8230C223736B6000EE0CDD /* SideButtonFixer */,
+				AB88D5A9237467DC00EE0CDD /* SideButtonFixer */,
 				AB8230BF23735AFD00EE0CDD /* extra-script-b4.command */,
 			);
 			path = SideButtonFixer;
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC7C3BE1EE711B400C9F725 /* Assets.xcassets in Resources */,
-				AB8230C323736B6000EE0CDD /* SideButtonFixer in Resources */,
+				AB88D5AA237467DC00EE0CDD /* SideButtonFixer in Resources */,
 				AB8230C123736B2C00EE0CDD /* extra-script-b4.command in Resources */,
 				AB62F06F23564E2000EE0CDD /* MainMenu.xib in Resources */,
 				AB8230C023736B2C00EE0CDD /* extra-script-b3.command in Resources */,

@@ -35,7 +35,7 @@ Buttons don't work? Try using Activity Monitor to quit *Side Button Enabler*, an
 # Theoretical FAQs
 
 Q: Why did you make this?  
-A: Primarily because I wanted to use SensibleSideButtons on Mavericks. The original version is only compatible with 10.10 Yosemite and above. And Yosemite looks ugly. I also added the ability to hold down the middle mouse button to enable the side buttons's native functionaity, which allows me to use the Mission Control shortcuts I set up in System Preferences.
+A: Primarily because I wanted to use SensibleSideButtons on Mavericks. The original version is only compatible with 10.10 Yosemite and above. I also added the ability to hold down the middle mouse button to enable the side buttons's native functionaity, which allows me to use the Mission Control shortcuts I set up in System Preferences.
 
 Q: Why is there no UI?  
 A: The original app's UI was built using storyboards. Storyboards don't work on Mavericks.

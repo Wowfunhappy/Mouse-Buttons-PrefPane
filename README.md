@@ -40,9 +40,6 @@ A: Primarily because I wanted to use SensibleSideButtons on Mavericks. The origi
 Q: Why is there no UI?  
 A: The original app's UI was built using storyboards. Storyboards don't work on Mavericks.
 
-Q: Did you know this code is terrible?  
-A: No, but I'm not surprised. I don't actually know how to program in Objective C. I just experimented until I found something that worked.
-
 Q: This app is great, who do I thank?  
 A: The original developer, archagon. Go to http://sensible-side-buttons.archagon.net for more information. He accepts donations.
 

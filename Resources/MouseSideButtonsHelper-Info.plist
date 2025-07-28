@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>MouseSideButtonsHelper</string>
+    <key>CFBundleIdentifier</key>
+    <string>Wowfunhappy.sidebuttons.helper</string>
+    <key>CFBundleName</key>
+    <string>Mouse Buttons</string>
+    <key>CFBundleDisplayName</key>
+    <string>Mouse Buttons</string>
+    <key>CFBundleIconFile</key>
+    <string>MouseSideButtons</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>LSMinimumSystemVersion</key>
+    <string>10.8</string>
+</dict>
+</plist>

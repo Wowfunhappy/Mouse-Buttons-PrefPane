@@ -1,0 +1,50 @@
+#!/usr/bin/osascript
+
+considering numeric strings
+    set frontmostAppPath to path to frontmost application as text
+    if frontmostAppPath contains "Finder.app" and system version of (system info) < "10.10"
+        tell application "System Events" to tell process "Finder"
+            try
+                repeat with i from 1 to number of groups in toolbar 1 of front window
+                    try
+                        click button 2 of group 1 of group i of toolbar 1 of front window
+                        return "complete"
+                    end try
+                end repeat
+            on error number errNum
+                if errNum is -1719 then
+                    --Couldn't find menu bar
+                    click menu item "Forward" of menu "Go" of menu bar item "Go" of menu bar 1
+                    return "complete"
+                end if
+            end try
+        end tell
+    end if
+    if frontmostAppPath contains "App Store.app" and system version of (system info) < "10.10"
+        tell application "System Events" to tell process "App Store"
+            repeat with i from 1 to number of groups in toolbar 1 of front window
+                click button 2 of group 1 of group i of toolbar 1 of front window
+                return "complete"
+            end repeat
+        end tell
+    end if
+    if frontmostAppPath contains "Preview.app"
+        tell application "System Events" to tell process "Preview"
+            --By default, a forward swipe will make you go back one page instead of forward. Preview bug?
+            click menu item "Next Item" of menu "Go" of menu bar item "Go" of menu bar 1
+            return "complete"
+        end tell
+    end if
+    if frontmostAppPath contains "Calendar.app"
+        tell application "System Events" to tell process "Calendar"
+            click menu item "Next" of menu "View" of menu bar item "View" of menu bar 1
+            return "complete"
+        end tell
+    end if
+    if frontmostAppPath contains "Contacts.app"
+        tell application "System Events" to tell process "Contacts"
+            click menu item "Go to Next Card" of menu "Card" of menu bar item "Card" of menu bar 1
+            return "complete"
+        end tell
+    end if
+end considering
